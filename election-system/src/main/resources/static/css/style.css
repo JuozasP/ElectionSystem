@@ -1,0 +1,334 @@
+body {
+    background-color: #bcbcbc;
+    padding: 20px;
+    margin: 0;
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#headerLogo {
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+
+ol, ul {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+h1, h2, p, ul, li {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.header li {
+    display: inline;
+    list-style-type: none;
+    margin: 0;
+    padding: 20 0 20 0;
+}
+
+.header2 #home {
+	color: #fff;
+}
+
+.header {
+    background-color: #111;
+    padding: 0;
+    font-size: 20px;    
+}
+
+.header li:hover {
+    background-color: rgba(0, 128, 255, 0.4);
+}
+
+.header li a {
+    color: #FFF;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 20px;
+    display: inline-block;
+}
+
+.header2 li {
+    display: inline;
+    list-style-type: none;
+    margin: 0;
+    padding: 20 0 20 0;
+}
+
+.header2 {
+    background-color: #111;
+    padding: 0;
+    font-size: 20px;    
+}
+
+.header2 li:hover {
+    background-color: rgba(0, 128, 255, 0.4);
+}
+
+
+.header2 li a {
+    color: #111;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 20px;
+    display: inline-block;
+}
+
+.footer-bottom {
+    background-color: #111;
+    min-height: 30px;
+}
+.copyright {
+    color: #fff;
+    line-height: 30px;
+    min-height: 30px;
+    padding: 7px 0;
+    text-align: center;
+}
+
+.content {
+    background-color: #FFF;
+    padding: 20px;
+}
+
+.content h2 {
+    padding: 0;
+    margin: 0;
+}
+
+.content li {
+    margin-bottom: 10px;
+}
+
+.active {
+    background-color: #0099FF;
+}
+
+.header #left {
+	width: 45%;				
+	float: left;
+	background-color: #111;	
+	padding-top: 3px;
+}
+
+.header #right {
+	width: 55%;				
+	float: right;	
+	background-color: #111;
+}
+
+
+
+.clear {
+	clear: both;
+}
+
+/* App */
+
+#loginMenu {
+	float: right;
+	padding-right: 5px;	
+}
+
+#logOut {
+	float: right;
+	display: none;
+}
+
+/* Welcome page */
+#link {
+	text-decoration: none;
+	color: #111;
+}
+
+#leftVytis {					
+	float: left;
+}
+
+#vytis {
+	cursor: pointer;
+}
+
+#welcomeText {
+	padding-top: 90px;
+}
+
+/* MainPage */
+
+#main h1 {
+	text-align: center;
+}
+
+#ResultsMenu {
+	float: right;
+	padding-right: 5px;	
+}
+
+#ResultsMunu_Drop_Drop:hover {
+	background-color: rgba(0, 128, 255, 0.2);
+}
+
+/* Results */
+
+#resultsDistrict span, #resultsConstituency span {
+    font-size: 20px;
+}
+
+#resultsDistrictInfo, #resultsConstituencyInfo {
+    color: #008000;
+}
+
+
+/* Candidates */
+
+#menu tr {
+    cursor: pointer;
+}
+
+#menu tr:hover {
+    background-color: rgba(0, 128, 255, 0.2);
+}
+
+#menu .list1, .list2, .list3, .list4, .list5 {
+    cursor: pointer;
+    display: none;
+}
+
+
+#CandidateSearchValidation {
+	display: none;	
+}
+
+.validationForm {
+	background-color: #ff9980;
+	color: #666666;
+	text-align: center;
+	font-style: italic;
+	font-size: 15px;
+}
+
+.successValidationForm {
+	background-color: #b3e6b3;
+	color: #666666;
+	text-align: center;
+	font-style: italic;
+	font-size: 15px;
+}
+
+#temporary-representative {
+    cursor: pointer;
+}
+
+
+
+/* Candidates Description */
+#description span {
+    font-size: 20px;
+}
+
+#cdtitle {
+    color: #008000;
+}
+
+/* Tables */
+#Table table {
+    counter-reset: line-number;
+}
+
+#Table td:first-child:before {
+    content: counter(line-number) ".";
+    counter-increment: line-number;
+    padding-right: 0.3em;
+    padding-left: 15px;
+}
+
+/* Login Page */
+
+
+.Login {
+    border: 3px solid #4CAF50;
+    padding: 50 200 50 200;
+    background: url("../images/back1.jpg");
+}
+
+.Login input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.Login button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+.Login #onLogin:hover {
+    background-color: #009900;
+    color: #fff;    
+}
+
+.Login #onLogin:active {
+    background-color: #009fff;
+    color: #fff;    
+}
+
+.Login #onCancel:hover {
+    background-color: #ff1a1a;
+    color: #fff;    
+}
+
+.Login #onLogin2:hover {
+    background-color: #009900;
+    color: #fff;    
+}
+
+.Login #onLogin2:active {
+    background-color: #009fff;
+    color: #fff;    
+}
+
+.Login #onCancel2:hover {
+    background-color: #ff1a1a;
+    color: #fff;    
+}
+
+.Login .cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+#UserPassValidation, #UserNameValidation, #AdminPassValidation, #AdminNameValidation, #WronLoginValidation,
+#DistrictSearchValidation, #ConstituencyTitleValidation, #DistrictTitleValidation,
+#RepNameValidation, #RepLastNameValidation, #RepLoginNameValidation, #RepPassValidation,
+#PartyIdValidation, #PartyTitleValidation, #PartyCodeValidation, #ConstituencyNameValidation,
+#DistrictVotersNumberValidation, #DistrictAddressValidation,
+#PartyNumber_Validation, #PartyCode_Validation, #PartyTitle_Validation,
+#District_name_Validation, #Voters_Count_Validation, #District_address_Validation,
+#MultiResultValidation, #SinglResultValidation, #ResultsSearchValidation,
+#successAddConstituencyValidation, #successAddDistrictValidation, #successAddPartyValidation {
+	display: none;	
+}
+
+th.header { 
+    background-color: #fff; 
+    cursor: pointer; 
+    font-size: 16px;
+} 
+
+
+
