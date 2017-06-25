@@ -1,7 +1,5 @@
 # ElectionSystem Project
 
-[![N|Solid]http://akademija.it/file/2016/11/14/it_akademija.png)]
-
 Final Project for Infobalt IT academy. 
 
 # Project summary!
